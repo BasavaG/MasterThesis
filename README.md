@@ -1,7 +1,7 @@
 # MasterThesis : 
 Author : Basavaraj Prakash Gangadhar,
 
-This repository contains the codes and notebooks used for master thesis. 
+This repository contains the code and notebook used for master thesis. 
 
 # Hardware : 
 1) Raspberry Pi.
