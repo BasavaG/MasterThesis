@@ -13,8 +13,8 @@ Once the repository has been downloaded, make sure to execute it to access it."c
 3. Next step is to install all additional requirements.The depthai repository contains a script "install_requirements".
            py install_requirements.py
   
-4. Navigate to depthai folder and Download the oak-1 folder from this repository. oak-1 repository contains a script to run a object detection, OpenVino models(.blob file) and tiny-yolo
-json file(classes and anchors).
+4. Navigate to depthai folder and Download the oak-1 folder from this repository. oak-1 repository contains a script to run a object detection, 
+OpenVino models(.blob file) and tiny-yolo.json file(classes and anchors).
 
 5. Connect the OAK-1 device to local machine at USB 3.0 port.
 
