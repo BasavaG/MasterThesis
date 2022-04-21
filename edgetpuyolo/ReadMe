@@ -1,0 +1,6 @@
+# 1)Install Tensorflow: Create python environment.
+Pip install Tensorflow == 1.15.0
+Pip install tf-nightly
+
+# 2)Execution: 
+py infernce.py –model models/yolov4-quantized.tflite –classes cfg/coco.names –anchors cfg/tiny-yolo-anchors.txt –edge_tpu –quant –video test/video.avi
