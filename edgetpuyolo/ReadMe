@@ -1,6 +1,14 @@
-# 1)Install Tensorflow: Create python environment.
+Afer completion of "base_yolo_conversion_tflite" notebook. We get a "tflite" model. This file will be used to execute object detection on PI with Google Coral Stick. 
+The model "yolov4-tiny-quantized.tflite" is available in "models" folder.
+Below are the instruction for execution. 
+Prerequisite: 
+1) Complete setup of Rapberry Pi. 
+
+2) Installation of Google coral edge tpu softwares. 
+
+3)Install Tensorflow: Create python environment.
 Pip install Tensorflow == 1.15.0
 Pip install tf-nightly
 
-# 2)Execution: 
-py infernce.py –model models/yolov4-quantized.tflite –classes cfg/coco.names –anchors cfg/tiny-yolo-anchors.txt –edge_tpu –quant –video test/video.avi
+4)Execution: 
+py infernce.py –model models/yolov4-tiny-quantized.tflite –classes cfg/coco.names –anchors cfg/tiny-yolo-anchors.txt –edge_tpu –quant –video test/video.avi
