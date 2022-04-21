@@ -1,5 +1,6 @@
 # MasterThesis : 
-Author : Basavaraj Prakash Gangadhar
+Author : Basavaraj Prakash Gangadhar,
+
 This repository contains the codes and notebooks used for master thesis. 
 
 # Hardware : 
