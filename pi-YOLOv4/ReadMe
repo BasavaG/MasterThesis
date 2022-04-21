@@ -1,3 +1,5 @@
 1) Setup raspberry pi
 2) clone this repo and execute the below command: 
         "detection_demo.py"
+
+reference:  https://pylessons.com/YOLOv3-TF2-RaspberryPi
