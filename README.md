@@ -1,4 +1,5 @@
-# MasterThesis : Frankfurt University of Applied Scieces Author: Basavaraj Prakash Gangadhar.
+# MasterThesis : 
+Author : Basavaraj Prakash Gangadhar
 This repository contains the codes and notebooks used for master thesis. 
 
 # Hardware : 
