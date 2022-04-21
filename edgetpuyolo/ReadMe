@@ -1,4 +1,4 @@
-Afer completion of "base_yolo_conversion_tflite" notebook. We get a "tflite" model. This file will be used to execute object detection on PI with Google Coral Stick. 
+Afer completion of "base_yolo_conversion_tflite" notebook, We get a "tflite" model. This file will be used to execute object detection on PI with Google Coral Stick. 
 The model "yolov4-tiny-quantized.tflite" is available in "models" folder.
 Below are the instruction for execution. 
 Prerequisite: 
