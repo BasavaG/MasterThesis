@@ -1,0 +1,22 @@
+#Instructions:
+
+1. To begin, open a terminal window and browse to the location where the sample script will be saved.
+           git clone https://github.com/luxonis/depthai.git
+Once the repository has been downloaded, make sure to execute it to access it."cd depthai".
+
+2)This repository includes depthai-sdk, depthai-manager, and other requirements needed to run our object detection model.
+ Install python 3.8 and create virtual environment.
+ py -m venv myvenv
+ source myvenv/bin/activate
+ Pip install -U Pip
+
+3. Next step is to install all additional requirements.The depthai repository contains a script "install_requirements".
+  py install_requirements.py
+  
+4. Navigate to depthai folder and Download the oak-1 folder from this repository. oak-1 repository contains a script to run a object detection, OpenVino models(.blob file) and tiny-yolo
+json file(classes and anchors).
+
+5. Connect the OAK-1 device to local machine at USB 3.0 port.
+
+6. 6. Run main.py to start the object detection.
+     "py main.py -m models(relative path to blob file)"
