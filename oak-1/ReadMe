@@ -19,4 +19,5 @@ json file(classes and anchors).
 5. Connect the OAK-1 device to local machine at USB 3.0 port.
 
 6. 6. Run main.py to start the object detection.
-     "py main.py -m models(relative path to blob file)"
+     "py main.py -m models model (relative path to blob file)"
+     
