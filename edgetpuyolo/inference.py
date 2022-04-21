@@ -8,7 +8,7 @@ import argparse
 
 EDGETPU_SHARED_LIB = "libedgetpu.so.1"
 
-parser = argparse.ArgumentParser("Run TF-Lite YOLO-V3 Tiny inference.")
+parser = argparse.ArgumentParser("Run TF-Lite YOLO-V4 Tiny inference.")
 parser.add_argument("--model", required=True, help="Model to load.")
 parser.add_argument("--anchors", required=True, help="Anchors file.")
 parser.add_argument("--classes", required=True, help="Classes (.names) file.")
